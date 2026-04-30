@@ -1,0 +1,19 @@
+#percentage calculator
+maths=int(input('enter marks of maths:'))
+biology=int(input('enter marks of biology:'))
+physics=int(input('enter marks of pyshics:'))
+chemistry=int(input('enter marks of chemistry:'))
+computer=int(input('enter marks of computer:'))
+s=(maths+biology+chemistry+physics+computer)/5
+if s >= 90:
+    print('congratualtions you score',s,'% and got A grade')
+elif s >= 80:
+    print('congratualtions you score',s,'% and got B grade')
+elif s >= 70:
+    print('you score',s,'% and got c grade u have potential get better next time' )
+elif s >= 60:
+    print('you score',s,'% and got D grade get better next time')
+elif s >= 40:
+    print('you score',s,'% and got E grade you have to work hard')
+else:
+    print('you failed this exam')
